@@ -35,7 +35,7 @@
 ## ------------------------------------------------------------------
 
 ## import data for our model
-from data import *
+from data.data import *
 
 ##  Implement first order quantifiers & some other useful methods
 
