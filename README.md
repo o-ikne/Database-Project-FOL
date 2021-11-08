@@ -36,6 +36,7 @@ processes, which we will see later, such as finding Free variables or Range-rest
 of a given formula. Each one of those visitors can run visitor operations over any set of
 elements without figuring out their concrete classes. The accept operation directs a call to
 the appropriate operation in the visitor object.
+
 The main steps of this section are:
 
 1. Implementation of Range Restricted Interpretation (RRI) and Free Variables (FV) visitors.
