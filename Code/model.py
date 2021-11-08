@@ -5,7 +5,7 @@
 ## dependencies
 from typing import Union
 from functools import partial
-from data import *
+from data.data import *
 
 
 ## model classes
