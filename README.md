@@ -12,7 +12,7 @@ first order logic as a query language. Throughout this project, we will first pr
 representation of the evaluation of first order formulas in Python, and then, in order to push this approach further, we
 will look for a deep representation and evaluation of these formulas by compiling FOL formulas to a Non-recursive Datalog program. A useful description can be found in [here](https://www.fil.univ-lille1.fr/~salvati/cours/bdd_M2_ds/fol/fo_evaluation.html).
 
-Interesting concepts of fondations of databases can be found [here](http://webdam.inria.fr/Alice/)
+Interesting concepts and reminders of database foundations can be found [here](http://webdam.inria.fr/Alice/)
 
 ### __Data__
 The data used during this project can be found [here](https://www.fil.univ-lille1.fr/~salvati/cours/bdd_M2_ds/fol/fo_evaluation.html).
@@ -53,4 +53,4 @@ The main steps of this section are:
 7. Compute the right datalog program.
 8. Execution of the datalog program.
 
-For more details check the project <a href="Report/DB Project Report - Ikne Omar.pdf" target="_blank"> report</a>.
+For more details, check out the project <a href="Report/DB Project Report - Ikne Omar.pdf" target="_blank"> report</a>.
