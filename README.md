@@ -21,7 +21,8 @@ implement first order quantifiers using this feature so that we can write in our
 language first order formulae as follow (this method is called shallow embedding. For example, the following query: 
 
 ```Python 
-forall(lambda x: not artist(x) or (artist(x) and (actor(x) or director(x))))```
+forall(lambda x: not artist(x) or (artist(x) and (actor(x) or director(x))))
+```
 
 refers to the statement: "Each artist is either an actor or a film director.", and this yields false, which means that there is an artist who is neither an actor nor a film
 director.
@@ -37,13 +38,13 @@ elements without figuring out their concrete classes. The accept operation direc
 the appropriate operation in the visitor object.
 The main steps of this section are:
 
-- 1. Implementation of Range Restricted Interpretation (RRI) and Free Variables (FV) visitors.
-- 2. Renoval of Forall & handling Negation (Not) : put Not as low as possible in a formulae !
-- 3. Represent Datalog programs.
-- 4. Compile FOL to datalog.
-- 5. Unfolding in datalog. (unfold rules that have variables that are not range restricted).
-- 6. Test range restrection for datalog rules.
-- 7. Compute the right datalog program.
-- 8. Execution of the datalog program.
+1. Implementation of Range Restricted Interpretation (RRI) and Free Variables (FV) visitors.
+2. Renoval of Forall & handling Negation (Not) : put Not as low as possible in a formulae !
+3. Represent Datalog programs.
+4. Compile FOL to datalog.
+5. Unfolding in datalog. (unfold rules that have variables that are not range restricted).
+6. Test range restrection for datalog rules.
+7. Compute the right datalog program.
+8. Execution of the datalog program.
 
 For more details check the project [report](Report/DB Project Report - Ikne Omar.pdf).
