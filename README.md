@@ -48,4 +48,4 @@ The main steps of this section are:
 7. Compute the right datalog program.
 8. Execution of the datalog program.
 
-For more details check the project [report](Report/DB Project Report - Ikne Omar.pdf).
+For more details check the project <a href="https:/https://github.com/o-ikne/Database-Project-FOL/Report/DB Project Report - Ikne Omar.pdf" target="_blank"> report</a>.
