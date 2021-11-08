@@ -1,3 +1,8 @@
+![GitHub Contributors Image](https://contrib.rocks/image?repo=o-ikne/Database-Project-FOL)
+[![Generic badge](https://img.shields.io/badge/Made_With-Python-<COLOR>.svg)](https://shields.io/)
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=o-ikne.Database-Project-FOL)
+
 ## __Databases Project: First Order Logic into Non-recursive Datalog__
 
 ### __Overview__
