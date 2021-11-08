@@ -5,12 +5,12 @@
 This project is part of the course on databases taught by Mr. Sylvain Salvati, and it’s about
 first order logic as a query language. Throughout this project, we will first propose a naive
 representation of the evaluation of first order formulas in Python, and then, in order to push this approach further, we
-will look for a deep representation and evaluation of these formulas by compiling FOL formulas to a Non-recursive Datalog program. A useful description can be found in [https://www.fil.univ-lille1.fr/~salvati/cours/bdd_M2_ds/fol/fo_evaluation.html](here).
+will look for a deep representation and evaluation of these formulas by compiling FOL formulas to a Non-recursive Datalog program. A useful description can be found in [here](https://www.fil.univ-lille1.fr/~salvati/cours/bdd_M2_ds/fol/fo_evaluation.html).
 
-Interesting concepts of fondations of databases can be found [http://webdam.inria.fr/Alice/](here)
+Interesting concepts of fondations of databases can be found [here](http://webdam.inria.fr/Alice/)
 
 ### __Data__
-The data used during this project can be found [https://www.fil.univ-lille1.fr/~salvati/cours/bdd_M2_ds/fol/fo_evaluation.html](here).
+The data used during this project can be found [here](https://www.fil.univ-lille1.fr/~salvati/cours/bdd_M2_ds/fol/fo_evaluation.html).
 
 ### __Naive implementation of the evaluation__
 
@@ -19,7 +19,10 @@ formulas. In order to do that, we will use the fact that most of modern language
 order in the sense that they allow functions to take functions as argument. Therefore, we will
 implement first order quantifiers using this feature so that we can write in our programming
 language first order formulae as follow (this method is called shallow embedding. For example, the following query: 
-```forall(lambda x: not artist(x) or (artist(x) and (actor(x) or director(x))))```
+
+```Python 
+forall(lambda x: not artist(x) or (artist(x) and (actor(x) or director(x))))```
+
 refers to the statement: "Each artist is either an actor or a film director.", and this yields false, which means that there is an artist who is neither an actor nor a film
 director.
 
@@ -43,4 +46,4 @@ The main steps of this section are:
 - 7. Compute the right datalog program.
 - 8. Execution of the datalog program.
 
-For more details check the project [Report/DB Project Report - Ikne Omar.pdf](report).
+For more details check the project [report](Report/DB Project Report - Ikne Omar.pdf).
